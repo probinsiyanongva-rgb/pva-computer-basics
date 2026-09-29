@@ -1,0 +1,974 @@
+{
+ "outcomes": [
+  "recognize the main parts of a laptop or desktop computer and the everyday words for them",
+  "control your computer with the mouse, keyboard and windows, including right-clicking and switching between programs",
+  "create, name, find, copy, move and organize files and folders",
+  "download and upload files, open ZIP files, and know where your files are stored",
+  "use a web browser with tabs, web addresses and bookmarks",
+  "take a screenshot and use the most common keyboard shortcuts",
+  "work through a computer problem calmly, step by step, instead of panicking",
+  "keep your computer and accounts safe with simple everyday habits"
+ ],
+ "fit_check": [
+  {
+   "text": "I can turn a computer on, sign in, and restart or shut it down properly.",
+   "lesson": 1
+  },
+  {
+   "text": "I can right-click, drag an item, and switch between open windows.",
+   "lesson": 2
+  },
+  {
+   "text": "I can take a screenshot and find where it was saved.",
+   "lesson": 2
+  },
+  {
+   "text": "I can create a folder, rename a file, and explain the difference between copying and moving a file.",
+   "lesson": 3
+  },
+  {
+   "text": "I can find a file I just downloaded and open a ZIP file.",
+   "lesson": 4
+  },
+  {
+   "text": "I can open a new tab, go to a web address, and bookmark a page.",
+   "lesson": 5
+  },
+  {
+   "text": "When something on my computer stops working, I know what to check and try before asking for help.",
+   "lesson": 6
+  },
+  {
+   "text": "I can recognize a suspicious link or attachment and I know how to keep my accounts safe.",
+   "lesson": 7
+  }
+ ],
+ "lessons": [
+  {
+   "num": 1,
+   "title": "Meet Your Computer",
+   "next_preview": [
+    "Now that you know the parts of your computer, it's time to control it.",
+    "Next, you'll practice the mouse and keyboard actions you'll use hundreds of times a day, including right-clicking, switching between windows, and taking a screenshot."
+   ],
+   "quick_check": {
+    "purpose": "A few questions to check that the main words from this lesson are clear.",
+    "questions": [
+     {
+      "id": "1.1",
+      "q": "Which of these is an operating system?",
+      "options": [
+       "Windows",
+       "Google Chrome",
+       "A file named invoice.pdf",
+       "The keyboard"
+      ],
+      "answer": 0,
+      "explain": "Windows and macOS are operating systems: the main system that runs the whole computer. Chrome is an application that runs on top of it."
+     },
+     {
+      "id": "1.2",
+      "q": "You're going to be away from your laptop for three minutes to get water. What is the most sensible thing to do?",
+      "options": [
+       "Lock the screen",
+       "Shut the computer down completely",
+       "Unplug the charger",
+       "Leave everything open as it is"
+      ],
+      "answer": 0,
+      "explain": "Locking keeps your work open but hides it until you sign in again. Shutting down for a short break is unnecessary, and leaving the screen open lets anyone see your work."
+     },
+     {
+      "id": "1.3",
+      "q": "Where do you usually find the programs that are currently open on a Windows computer?",
+      "options": [
+       "On the taskbar at the bottom of the screen",
+       "Inside the Downloads folder",
+       "In the Settings app",
+       "On the charger"
+      ],
+      "answer": 0,
+      "explain": "The taskbar (the Dock on a Mac) shows your open programs, so you can switch between them."
+     }
+    ]
+   }
+  },
+  {
+   "num": 2,
+   "title": "Mouse, Keyboard & Windows",
+   "next_preview": [
+    "You can now control your computer. Next, you'll learn to handle the thing almost every VA task involves: files.",
+    "Lesson 3 covers creating folders, copying and moving, naming files clearly, and finding a file when you can't remember where it went."
+   ],
+   "activities": {
+    "l2": {
+     "title": "Which Action Helps?",
+     "intro": "Choose the action that solves each situation fastest.",
+     "items": [
+      {
+       "q": "You want to rename a file on your desktop, but you can't see a Rename button anywhere.",
+       "options": [
+        "Right-click the file",
+        "Double-click the file",
+        "Restart the computer",
+        "Close all your windows"
+       ],
+       "answer": 0,
+       "good": "Right-clicking a file shows the actions available for it, including Rename.",
+       "try": "Right-click the file. The menu that appears includes Rename and other file actions."
+      },
+      {
+       "q": "You're copying product details from a website into a spreadsheet, and keep losing your place when you switch between them.",
+       "options": [
+        "Close the website each time",
+        "Put the two windows side by side",
+        "Minimize both windows",
+        "Take a screenshot of the spreadsheet"
+       ],
+       "answer": 1,
+       "good": "Side by side, you can read one window while typing in the other.",
+       "try": "Put the two windows side by side, so you can read one while typing in the other."
+      },
+      {
+       "q": "You need to find the word \"refund\" in a 40-page document.",
+       "options": [
+        "Scroll and read every page",
+        "<kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>F</kbd> and type \"refund\"",
+        "<kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>A</kbd>",
+        "Print the document"
+       ],
+       "answer": 1,
+       "good": "Find jumps straight to every place the word appears.",
+       "try": "Use Find (Ctrl/⌘ + F). It jumps straight to every place the word appears."
+      },
+      {
+       "q": "You accidentally deleted a paragraph you still needed.",
+       "options": [
+        "Type it again from memory",
+        "<kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>Z</kbd> (Undo)",
+        "Close without saving",
+        "<kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>S</kbd> (Save)"
+       ],
+       "answer": 1,
+       "good": "Undo reverses your last action right away.",
+       "try": "Undo (Ctrl/⌘ + Z) reverses your last action right away. Saving would keep the mistake."
+      },
+      {
+       "q": "A website shows an error message and you want to show it to someone who can help.",
+       "options": [
+        "Describe the error from memory",
+        "Take a screenshot of the error",
+        "Close the page and try to forget it",
+        "Copy the whole page's address only"
+       ],
+       "answer": 1,
+       "good": "A screenshot shows exactly what you saw, including the exact error wording.",
+       "try": "Take a screenshot. It shows exactly what you saw, including the exact wording of the error."
+      },
+      {
+       "q": "You took an area screenshot on a Mac with <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>4</kbd>. Where do you look for it first?",
+       "options": [
+        "The Desktop",
+        "The Trash",
+        "Settings",
+        "Inside your browser"
+       ],
+       "answer": 0,
+       "good": "Mac screenshots are saved to the Desktop by default.",
+       "try": "Look on the Desktop. That's where a Mac saves screenshots by default."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check the everyday controls from this lesson.",
+    "questions": [
+     {
+      "id": "2.1",
+      "q": "What's the difference between minimizing and closing a window?",
+      "options": [
+       "Minimizing hides it but keeps it open; closing closes it",
+       "They are the same",
+       "Minimizing deletes the file",
+       "Closing hides it on the taskbar"
+      ],
+      "answer": 0,
+      "explain": "A minimized window waits on the taskbar or Dock. A closed window is gone until you open it again, so save before closing."
+     },
+     {
+      "id": "2.2",
+      "q": "On a Mac, which key does most of the work that Ctrl does on Windows in shortcuts?",
+      "options": [
+       "⌘ Cmd",
+       "Shift",
+       "Tab",
+       "Option"
+      ],
+      "answer": 0,
+      "explain": "Ctrl + C on Windows is ⌘ + C on a Mac, and the same pattern works for most everyday shortcuts."
+     },
+     {
+      "id": "2.3",
+      "q": "You're about to send a client a screenshot. What should you check first?",
+      "options": [
+       "That it shows nothing private, like passwords or another client's information",
+       "That it is in black and white",
+       "That it is the whole screen",
+       "Nothing, screenshots are always fine to send"
+      ],
+      "answer": 0,
+      "explain": "A screenshot shows everything in the captured area. Check for passwords, private messages and other clients' details before sending."
+     }
+    ]
+   }
+  },
+  {
+   "num": 3,
+   "title": "Files & Folders",
+   "next_preview": [
+    "Your files are organized. Next: how files get onto your computer and back off it.",
+    "Lesson 4 covers device and cloud storage, downloading, ZIP files and uploading."
+   ],
+   "activities": {
+    "l3": {
+     "title": "What Would You Do?",
+     "intro": "Everyday file situations. Choose the best action.",
+     "items": [
+      {
+       "q": "A client sends 20 product photos. You need to crop them, but the client wants the originals kept exactly as they are.",
+       "options": [
+        "Move the photos into your working folder",
+        "Copy the photos into your working folder and crop the copies",
+        "Rename the originals",
+        "Delete the originals after cropping"
+       ],
+       "answer": 1,
+       "good": "Copying keeps the originals untouched while you work on duplicates.",
+       "try": "Copy them. Copying keeps the originals untouched while you work on the duplicates."
+      },
+      {
+       "q": "Which is the clearest name for a September invoice for a client named Rivera?",
+       "options": [
+        "invoice.pdf",
+        "Document1.pdf",
+        "invoice-rivera-2026-09.pdf",
+        "final FINAL.pdf"
+       ],
+       "answer": 2,
+       "good": "It says what the file is, who it's for, and when, and it will sort by date.",
+       "try": "invoice-rivera-2026-09.pdf says what it is, who it's for and when, so anyone can find it."
+      },
+      {
+       "q": "You saved a file an hour ago but can't remember which folder. What's a good first step?",
+       "options": [
+        "Search for part of the file name in File Explorer or Finder",
+        "Make the file again from scratch",
+        "Restart the computer",
+        "Empty the Recycle Bin or Trash"
+       ],
+       "answer": 0,
+       "good": "Searching for part of the name is usually the fastest way to find it.",
+       "try": "Search for part of the file name first. Emptying the Recycle Bin or Trash could destroy the file if it was deleted by mistake."
+      },
+      {
+       "q": "You deleted a file by mistake a few minutes ago. Where can you get it back?",
+       "options": [
+        "It's gone forever",
+        "From the Recycle Bin (Windows) or Trash (Mac)",
+        "From the Downloads folder",
+        "From Settings"
+       ],
+       "answer": 1,
+       "good": "Deleted files stay in the Recycle Bin or Trash until it's emptied, and you can restore them.",
+       "try": "Check the Recycle Bin (Windows) or Trash (Mac). You can restore the file from there until it's emptied."
+      },
+      {
+       "q": "You're editing a price list and want to keep the old version as well as the new one.",
+       "options": [
+        "Save",
+        "Save As, with a new name",
+        "Close without saving",
+        "Rename the file"
+       ],
+       "answer": 1,
+       "good": "Save As makes a new file with your changes and leaves the original as it was.",
+       "try": "Use Save As with a new name. Save would replace the old version."
+      },
+      {
+       "q": "A client sends <em>orders.csv</em>. What kind of file is it?",
+       "options": [
+        "A photo",
+        "Plain spreadsheet data",
+        "A ZIP bundle",
+        "A video"
+       ],
+       "answer": 1,
+       "good": ".csv is plain spreadsheet data, often exported from another system.",
+       "try": ".csv is plain spreadsheet data, often exported from a store or another system."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check the file skills from this lesson.",
+    "questions": [
+     {
+      "id": "3.1",
+      "q": "You drag a file from Folder A into Folder B on the same drive. What usually happens?",
+      "options": [
+       "It moves: it's now only in Folder B",
+       "It copies: it's in both folders",
+       "It's deleted",
+       "It turns into a ZIP file"
+      ],
+      "answer": 0,
+      "explain": "Dragging within the same drive moves the file. Use Copy and Paste when the original must stay where it is."
+     },
+     {
+      "id": "3.2",
+      "q": "Why write dates in file names as year-month-day, like 2026-09-15?",
+      "options": [
+       "So files sort in the right date order",
+       "Because computers can't read other formats",
+       "To make the file smaller",
+       "It doesn't matter"
+      ],
+      "answer": 0,
+      "explain": "Year-month-day names sort in date order automatically, which makes the newest version easy to spot."
+     },
+     {
+      "id": "3.3",
+      "q": "When you rename a file, which part should you leave unchanged?",
+      "options": [
+       "The extension, like .pdf or .xlsx",
+       "The first word",
+       "The whole name",
+       "Nothing needs to stay the same"
+      ],
+      "answer": 0,
+      "explain": "Changing the extension can make the computer open the file with the wrong program, or not open it at all."
+     }
+    ]
+   }
+  },
+  {
+   "num": 4,
+   "title": "Storage, Downloads & Uploads",
+   "next_preview": [
+    "Most files you download come from the internet, through a web browser. Next, you'll learn how the browser itself works.",
+    "Lesson 5 covers web addresses, tabs, bookmarks and the other browser basics you'll use every day."
+   ],
+   "activities": {
+    "l4": {
+     "title": "Follow the File",
+     "intro": "A client emails you a ZIP file of product photos. Choose the right step at each point.",
+     "items": [
+      {
+       "q": "You download the ZIP file. Where does it most likely go?",
+       "options": [
+        "Your Downloads folder",
+        "Your Desktop, always",
+        "Straight into the client's cloud folder",
+        "Your Recycle Bin"
+       ],
+       "answer": 0,
+       "good": "Downloads go to the Downloads folder unless you chose a different place.",
+       "try": "It most likely goes to Downloads, unless you chose a different place when downloading."
+      },
+      {
+       "q": "You open the ZIP and see the photos. What should you do before working on them?",
+       "options": [
+        "Edit them directly inside the ZIP",
+        "Extract the ZIP, then work from the extracted folder",
+        "Rename the ZIP file",
+        "Upload the ZIP back to the client"
+       ],
+       "answer": 1,
+       "good": "Extracting gives you a normal folder of files you can open, edit and save properly.",
+       "try": "Extract it first. Files opened from inside a ZIP often can't be saved properly."
+      },
+      {
+       "q": "After extracting, the photos are sitting in Downloads. What's the best next step?",
+       "options": [
+        "Leave them in Downloads",
+        "Move the extracted folder into the right work folder",
+        "Delete the ZIP and the photos",
+        "Copy them to the Desktop too"
+       ],
+       "answer": 1,
+       "good": "Moving the folder into its proper place keeps your work organized and easy to find.",
+       "try": "Move the extracted folder into the right work folder so it's organized and easy to find."
+      },
+      {
+       "q": "You try to download another file, but the computer says there isn't enough space. What should you check?",
+       "options": [
+        "Your storage, and clear out your own old downloads and large files",
+        "Delete the client's files to make room",
+        "Buy a new computer",
+        "Turn off Wi-Fi"
+       ],
+       "answer": 0,
+       "good": "Check your storage and remove your own unneeded files, like old downloads and a full Recycle Bin or Trash.",
+       "try": "Check your storage settings and clear your own old downloads and large files. Never delete a client's files to make room."
+      },
+      {
+       "q": "You finish the photos and upload them to the client's folder online. What should you do before closing the tab?",
+       "options": [
+        "Close it right away",
+        "Wait for the upload to finish and check the files appear with the right names",
+        "Delete the photos from your computer",
+        "Download them again"
+       ],
+       "answer": 1,
+       "good": "Closing the tab early can stop the upload. Checking confirms the files really arrived.",
+       "try": "Wait for the upload to finish, then check the files are really there, with the right names."
+      },
+      {
+       "q": "True or false: uploading a file to a cloud folder automatically lets other people see it.",
+       "options": [
+        "True",
+        "False"
+       ],
+       "answer": 1,
+       "good": "Uploading only puts a copy online. Who can see it depends on the folder's sharing settings, which the next course covers.",
+       "try": "False. Uploading only puts a copy online. Who can see it depends on sharing settings, covered in the next course."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check the difference between storage, downloading and uploading.",
+    "questions": [
+     {
+      "id": "4.1",
+      "q": "Which describes downloading?",
+      "options": [
+       "Copying a file from the internet to your computer",
+       "Copying a file from your computer to the internet",
+       "Deleting a file",
+       "Packing files into a ZIP"
+      ],
+      "answer": 0,
+      "explain": "Download: internet → your computer. Upload is the opposite direction."
+     },
+     {
+      "id": "4.2",
+      "q": "What is one advantage of cloud storage over device storage?",
+      "options": [
+       "You can reach the files from any device where you sign in",
+       "It works without internet on every device",
+       "Files never need names",
+       "It makes your computer faster"
+      ],
+      "answer": 0,
+      "explain": "Cloud files are available wherever you sign in, and they're safe if your computer breaks. Device files work offline, but only on that computer."
+     },
+     {
+      "id": "4.3",
+      "q": "You downloaded the same file twice. Which one is probably the newer copy?",
+      "options": [
+       "The one with (1) added to the name",
+       "The one without a number",
+       "Both are identical, so it never matters",
+       "The one with the older date"
+      ],
+      "answer": 0,
+      "explain": "The second download usually gets a number such as (1) added. Check the date if you're unsure which is newest."
+     }
+    ]
+   }
+  },
+  {
+   "num": 5,
+   "title": "Browser Basics",
+   "next_preview": [
+    "You now know the everyday tools. Next: what to do when one of them stops working.",
+    "Lesson 6 gives you a step-by-step way to work through computer problems calmly, and to ask for help in a way that gets you answers fast."
+   ],
+   "activities": {
+    "l5": {
+     "title": "In the Browser",
+     "intro": "Choose the best action for each situation.",
+     "items": [
+      {
+       "q": "A client tells you to go to <em>www.meadowlanehome.com/admin</em>. What's the best way to get there?",
+       "options": [
+        "Type the address into the address bar and press Enter",
+        "Search Google for \"meadow lane home\" and click the first result",
+        "Ask the client to send a screenshot of the page",
+        "Open a Private window and search for it"
+       ],
+       "answer": 0,
+       "good": "With an exact address, go straight there. Search results can lead to the wrong, or a fake, site.",
+       "try": "Type the exact address into the address bar. Searching can lead you to the wrong site, or a fake one."
+      },
+      {
+       "q": "You closed a tab by accident and need it back.",
+       "options": [
+        "<kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>",
+        "<kbd>Ctrl</kbd>/<kbd>⌘</kbd> + <kbd>W</kbd>",
+        "Restart the browser",
+        "Search for it again from scratch"
+       ],
+       "answer": 0,
+       "good": "Ctrl/⌘ + Shift + T reopens the tab you just closed.",
+       "try": "Ctrl/⌘ + Shift + T reopens the tab you just closed. Ctrl/⌘ + W would close another one."
+      },
+      {
+       "q": "A page shows yesterday's numbers, but you know they changed this morning.",
+       "options": [
+        "Refresh the page",
+        "Close the browser forever",
+        "Zoom in",
+        "Bookmark it"
+       ],
+       "answer": 0,
+       "good": "Refresh loads the page again with the latest information.",
+       "try": "Refresh the page. It loads the page again with the latest information."
+      },
+      {
+       "q": "You'll use a client's order dashboard every day.",
+       "options": [
+        "Search for it every morning",
+        "Bookmark it",
+        "Keep a screenshot of it",
+        "Write the address on paper"
+       ],
+       "answer": 1,
+       "good": "A bookmark opens the exact page in one click.",
+       "try": "Bookmark it (Ctrl/⌘ + D) so the exact page is one click away."
+      },
+      {
+       "q": "You want to open a link from a report without losing your place in the report.",
+       "options": [
+        "Click the link normally",
+        "Right-click the link and choose Open link in new tab",
+        "Copy the report into a document first",
+        "Press Back"
+       ],
+       "answer": 1,
+       "good": "A new tab keeps your report open in the original tab.",
+       "try": "Right-click the link and choose Open link in new tab, so the report stays open."
+      },
+      {
+       "q": "What does a Private or Incognito window do?",
+       "options": [
+        "Doesn't keep your history or stay signed in after you close it",
+        "Hides everything you do from every website",
+        "Makes the internet faster",
+        "Protects you from viruses"
+       ],
+       "answer": 0,
+       "good": "It forgets your history and sign-ins when closed, which is useful on shared computers. Websites can still see what you do.",
+       "try": "It only forgets your history and sign-ins when you close it. It doesn't hide you from websites or protect against viruses."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check the browser basics from this lesson.",
+    "questions": [
+     {
+      "id": "5.1",
+      "q": "Which of these is a web browser?",
+      "options": [
+       "Microsoft Edge",
+       "Google search",
+       "A website's contact page",
+       "www.example.com"
+      ],
+      "answer": 0,
+      "explain": "Edge, Chrome, Safari and Firefox are browsers. Google search is a search engine you visit inside a browser."
+     },
+     {
+      "id": "5.2",
+      "q": "Where do you see the web address of the page you're on?",
+      "options": [
+       "In the address bar at the top of the browser",
+       "On the taskbar",
+       "In the Downloads folder",
+       "In the bookmarks only"
+      ],
+      "answer": 0,
+      "explain": "The address bar shows the current page's address, and it's where you type an address to go somewhere."
+     },
+     {
+      "id": "5.3",
+      "q": "You have 35 tabs open and the computer is getting slow. What's a sensible habit?",
+      "options": [
+       "Close tabs you've finished with and bookmark ones you'll need again",
+       "Open a new window for each tab",
+       "Restart the router",
+       "Ignore it"
+      ],
+      "answer": 0,
+      "explain": "Every open tab uses memory. Closing finished tabs and bookmarking the rest keeps the computer fast and your work easy to find."
+     }
+    ]
+   }
+  },
+  {
+   "num": 6,
+   "title": "Basic Troubleshooting",
+   "next_preview": [
+    "Some problems are more serious than a page that won't load: fake messages, stolen passwords, harmful downloads.",
+    "Lesson 7 covers the everyday habits that keep your computer, your accounts and your clients' information safe."
+   ],
+   "activities": {
+    "l6": {
+     "title": "What's the Next Step?",
+     "intro": "Work through each problem with STOP → CHECK → TRY → SEARCH → ASK.",
+     "items": [
+      {
+       "q": "You click Save and an error message pops up. What do you do first?",
+       "options": [
+        "Close the program right away",
+        "Read the whole message and take a screenshot",
+        "Message the client that the computer is broken",
+        "Click every button on the message"
+       ],
+       "answer": 1,
+       "good": "STOP: read the exact message and capture it before anything else changes.",
+       "try": "STOP first: read the whole message and take a screenshot. Closing the program could lose your work."
+      },
+      {
+       "q": "No websites will load, not just one. What should you CHECK?",
+       "options": [
+        "Your internet connection",
+        "The file extension",
+        "Your password manager",
+        "The screen brightness"
+       ],
+       "answer": 0,
+       "good": "If every site fails, the internet connection is the most likely cause.",
+       "try": "When every site fails, check your internet connection first."
+      },
+      {
+       "q": "A client's online tool shows \"Access denied\" when you open a link they sent.",
+       "options": [
+        "Check which account you're signed in to",
+        "Restart the computer three times",
+        "Search for a different tool",
+        "Download the page"
+       ],
+       "answer": 0,
+       "good": "Being signed in to the wrong account is one of the most common causes of access errors.",
+       "try": "Check which account you're signed in to. A wrong account is one of the most common causes of access errors."
+      },
+      {
+       "q": "The internet is fine but one page still looks broken. What's a simple thing to TRY?",
+       "options": [
+        "Refresh the page, or try another browser",
+        "Reinstall Windows",
+        "Buy a new laptop",
+        "Delete your Downloads folder"
+       ],
+       "answer": 0,
+       "good": "Refreshing or trying another browser are quick, safe fixes that often work.",
+       "try": "Try a quick, safe fix first: refresh the page or open it in another browser."
+      },
+      {
+       "q": "You tried the simple fixes and have the exact error text. Which search is most useful?",
+       "options": [
+        "\"computer problem help\"",
+        "\"spreadsheet not working\"",
+        "The exact error text plus the program's name",
+        "\"why is this happening\""
+       ],
+       "answer": 2,
+       "good": "The exact error plus the program's name leads to people who had the same problem.",
+       "try": "Search the exact error text with the program's name. That's how you find people who had the same problem."
+      },
+      {
+       "q": "You still can't fix it. Which help request is best?",
+       "options": [
+        "\"It's not working, help\"",
+        "A screenshot with no explanation",
+        "What happened, what you were doing, what you tried, and the exact error",
+        "A long message about how stressful your day has been"
+       ],
+       "answer": 2,
+       "good": "Those four details let someone help you quickly, without a round of questions.",
+       "try": "Include what happened, what you were doing, what you tried, and the exact error. That lets someone help you quickly."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check the troubleshooting steps from this lesson.",
+    "questions": [
+     {
+      "id": "6.1",
+      "q": "What's the correct order?",
+      "options": [
+       "STOP → CHECK → TRY → SEARCH → ASK",
+       "ASK → TRY → STOP → CHECK → SEARCH",
+       "SEARCH → ASK → STOP → TRY → CHECK",
+       "TRY → ASK → SEARCH → STOP → CHECK"
+      ],
+      "answer": 0,
+      "explain": "Stop and look, check the obvious causes, try safe fixes, search the exact problem, then ask with the details."
+     },
+     {
+      "id": "6.2",
+      "q": "A forum post says to fix your problem by downloading a small program from an unknown website. What should you do?",
+      "options": [
+       "Stop and ask someone you trust before doing it",
+       "Download it right away",
+       "Download it on the client's computer instead",
+       "Turn off your antivirus first"
+      ],
+      "answer": 0,
+      "explain": "Risky fixes can cause bigger problems than the original one. When a fix feels risky, stop and ask."
+     },
+     {
+      "id": "6.3",
+      "q": "A program is completely frozen on Windows. Which shortcut opens Task Manager so you can close it?",
+      "options": [
+       "Ctrl + Shift + Esc",
+       "Ctrl + C",
+       "Ctrl + T",
+       "Ctrl + S"
+      ],
+      "answer": 0,
+      "explain": "Ctrl + Shift + Esc opens Task Manager on Windows. On a Mac, ⌘ + Option + Esc opens Force Quit."
+     }
+    ]
+   }
+  },
+  {
+   "num": 7,
+   "title": "Security & Safe Computer Habits",
+   "next_preview": [
+    "You've now covered every skill in this course. The last lesson puts them together.",
+    "Lesson 8 walks through one complete computer task from start to finish, using what you learned in Lessons 1 to 7."
+   ],
+   "activities": {
+    "l7": {
+     "title": "What Would You Do?",
+     "intro": "Realistic situations. Use judgment, not fear.",
+     "items": [
+      {
+       "q": "An email that looks like it's from your client's bank says their account will be locked today unless you sign in using the link.",
+       "options": [
+        "Click the link and sign in quickly",
+        "Don't click. Go to the bank's website yourself, or check with the client",
+        "Forward it to all your contacts",
+        "Reply with the account password"
+       ],
+       "answer": 1,
+       "good": "Urgency plus a sign-in link is a classic phishing sign. Go to the real site yourself or check with the client.",
+       "try": "Don't click. Urgency plus a sign-in link is a classic phishing sign. Open the real site yourself or check with the client."
+      },
+      {
+       "q": "A client asks for the password to a shared account. How should you send it?",
+       "options": [
+        "In the team chat",
+        "By email",
+        "Through the password manager or method the client uses for sharing access",
+        "In a screenshot"
+       ],
+       "answer": 2,
+       "good": "Passwords shouldn't sit in chats or emails. Use the secure method the client uses.",
+       "try": "Use the password manager or secure method the client uses. Chats and emails keep passwords where others can find them."
+      },
+      {
+       "q": "Someone calls saying they're from a software company and asks for the code that was just sent to your phone.",
+       "options": [
+        "Read them the code",
+        "Don't share it, and end the call",
+        "Share half of the code",
+        "Text it to them instead"
+       ],
+       "answer": 1,
+       "good": "Sign-in codes are only for you. Real companies don't ask for them.",
+       "try": "Never share it. Sign-in codes are only for you, and real companies don't ask for them."
+      },
+      {
+       "q": "You finish a task on a computer at an internet café.",
+       "options": [
+        "Close the browser and leave",
+        "Sign out of every account, then close the private window",
+        "Save your password so it's faster next time",
+        "Leave it on for the next person"
+       ],
+       "answer": 1,
+       "good": "Signing out fully means the next person can't get into your accounts.",
+       "try": "Sign out of every account before you leave. Closing the browser alone may leave you signed in."
+      },
+      {
+       "q": "Your laptop has shown an update notice for a week.",
+       "options": [
+        "Keep ignoring it",
+        "Save your work and install the update at a sensible time",
+        "Turn off updates in Settings",
+        "Buy a new laptop"
+       ],
+       "answer": 1,
+       "good": "Updates often fix security problems. Save your work and install them promptly.",
+       "try": "Save your work and install it at a sensible time. Many updates fix security problems."
+      },
+      {
+       "q": "You realize you typed a client's account password into a page that now looks fake.",
+       "options": [
+        "Say nothing and hope it's fine",
+        "Change the password on the real site right away and tell the client",
+        "Wait a week to see if anything happens",
+        "Delete your browser history"
+       ],
+       "answer": 1,
+       "good": "Acting fast and telling the client limits the damage.",
+       "try": "Change the password on the real site right away and tell the client. Acting fast is what limits the damage."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check the safety habits from this lesson.",
+    "questions": [
+     {
+      "id": "7.1",
+      "q": "Why is using the same password for several accounts risky?",
+      "options": [
+       "If one site is hacked, the same password opens your other accounts",
+       "It makes the password too long",
+       "Websites don't allow it",
+       "It slows down the computer"
+      ],
+      "answer": 0,
+      "explain": "A reused password turns one hacked website into access to all your other accounts. Use a password manager to keep them different."
+     },
+     {
+      "q": "How can you see where a link really goes before clicking it?",
+      "id": "7.2",
+      "options": [
+       "Hold the pointer over it and read the address that appears",
+       "Double-click it",
+       "Right-click and choose Copy, then paste it into the address bar and press Enter",
+       "You can't"
+      ],
+      "answer": 0,
+      "explain": "Hovering shows the real destination, usually at the bottom of the window, without opening it."
+     },
+     {
+      "id": "7.3",
+      "q": "Which shortcut locks a Windows computer?",
+      "options": [
+       "⊞ Win + L",
+       "Ctrl + L",
+       "Alt + Tab",
+       "Ctrl + Z"
+      ],
+      "answer": 0,
+      "explain": "⊞ Win + L locks Windows. On a Mac, use Control + ⌘ + Q."
+     }
+    ]
+   }
+  },
+  {
+   "num": 8,
+   "title": "Putting It Together: A Basic Computer Workflow",
+   "next_preview": [
+    "You've finished every lesson. The Final Challenge is 12 short scenario questions covering the whole course.",
+    "It's diagnostic, not a test you pass or fail: your score shows what's solid and which lessons are worth another look."
+   ],
+   "activities": {
+    "l8": {
+     "title": "When a Step Goes Wrong",
+     "intro": "Things rarely go perfectly. Choose the best response.",
+     "items": [
+      {
+       "q": "You double-click the ZIP and can see the photos, but the Rename option doesn't work on them.",
+       "options": [
+        "Extract the ZIP first, then rename the extracted photos",
+        "Ask the client to send the photos one by one",
+        "Rename the ZIP file instead",
+        "Take a screenshot and stop"
+       ],
+       "answer": 0,
+       "good": "Files inside a ZIP often can't be changed. Extract first, then work on the extracted copies.",
+       "try": "Extract the ZIP first. Files viewed inside a ZIP often can't be renamed or saved."
+      },
+      {
+       "q": "The download finished, but the ZIP isn't on your Desktop.",
+       "options": [
+        "Download it again five more times",
+        "Check the Downloads folder or the browser's download list",
+        "Tell the client the link is broken",
+        "Restart the computer"
+       ],
+       "answer": 1,
+       "good": "Downloads go to the Downloads folder by default, and the browser's download list can open it directly.",
+       "try": "Check Downloads, or open the browser's download list. That's where downloads go by default."
+      },
+      {
+       "q": "The upload has been stuck at the same point for ten minutes.",
+       "options": [
+        "Close the tab and assume it worked",
+        "STOP and CHECK: is your internet working? If the upload failed, try it again",
+        "Delete the photos from your computer",
+        "Upload a screenshot of the photos instead"
+       ],
+       "answer": 1,
+       "good": "Check the connection first, and never assume a stuck upload finished.",
+       "try": "Use STOP → CHECK: confirm your internet is working, and retry the upload if it failed. Never assume a stuck upload finished."
+      },
+      {
+       "q": "Your screenshot of the folder also shows another client's email in a second window.",
+       "options": [
+        "Send it anyway, it's only a screenshot",
+        "Take a new screenshot of just the folder",
+        "Blur your own name only",
+        "Send it but ask them not to look"
+       ],
+       "answer": 1,
+       "good": "Screenshots should show only what's needed. Capture just the folder.",
+       "try": "Take a new screenshot of just the folder. Another client's information should never appear in work you send."
+      }
+     ]
+    }
+   },
+   "quick_check": {
+    "purpose": "A few questions to check that you can connect the course skills into one workflow.",
+    "questions": [
+     {
+      "id": "8.1",
+      "q": "Why should you extract a ZIP before renaming the files inside it?",
+      "options": [
+       "Files inside a ZIP often can't be changed or saved properly",
+       "Renaming inside a ZIP deletes the files",
+       "ZIP files can't be opened on a Mac",
+       "It makes the files smaller"
+      ],
+      "answer": 0,
+      "explain": "Extracting gives you normal files you can rename, edit and save."
+     },
+     {
+      "id": "8.2",
+      "q": "When should you take the screenshot of the renamed files?",
+      "options": [
+       "After the files are renamed",
+       "Before you download them",
+       "Before you extract the ZIP",
+       "It doesn't matter"
+      ],
+      "answer": 0,
+      "explain": "The screenshot is proof of the finished names, so take it once the renaming is done."
+     },
+     {
+      "id": "8.3",
+      "q": "The upload says it's complete. What's left to do?",
+      "options": [
+       "Check that all the files appear on the page with the right names",
+       "Delete the originals right away",
+       "Upload them again to be safe",
+       "Nothing at all"
+      ],
+      "answer": 0,
+      "explain": "Checking confirms the work actually arrived as expected, so nobody finds a problem later."
+     }
+    ]
+   }
+  }
+ ]
+}
