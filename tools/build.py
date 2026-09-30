@@ -28,7 +28,7 @@ VERSION = "1.0"
 COURSE = "Computer & Laptop Basics"
 ACADEMY_URL = "https://probinsiyanongva.org/"
 PREV_COURSE = ("VA Foundations", "https://pva-va-foundations.probinsiyanongva.workers.dev/")
-NEXT_COURSE = ("Internet, Email & Google Workspace", "https://probinsiyanongva.org/internet-workspace-basics/")
+NEXT_COURSE = ("Internet, Email & Google Workspace", "https://pva-internet-workspace.probinsiyanongva.workers.dev/")
 OPTIONAL = [
     ("Document Basics", "https://pva-document-basics.probinsiyanongva.workers.dev/",
      "Practice creating, formatting and saving simple documents."),
