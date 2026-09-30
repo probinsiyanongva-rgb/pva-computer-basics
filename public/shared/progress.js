@@ -229,7 +229,9 @@
     var track = document.getElementById('progressTrack');
     if (!track) return;
     track.innerHTML = '';
-    var ids = LESSONS.map(function (l) { return l.id; }).concat([FINAL_ID, FIT_ID]);
+    // Lessons + Final Challenge only. The "Do you need this course?" check is never
+    // marked complete, so giving it a segment kept the bar from ever filling.
+    var ids = LESSONS.map(function (l) { return l.id; }).concat([FINAL_ID]);
     ids.forEach(function (id) {
       var s = document.createElement('span');
       s.className = 'progress-seg' + (status(id) === 'complete' ? ' done' : '') + (id === currentId ? ' current' : '');
